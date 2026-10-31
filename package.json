@@ -1,0 +1,23 @@
+{
+  "name": "dsh-self-evolve",
+  "description": "自我进化治理守卫：一个端点答完自改进智能体的九环治理——学习/进化/迭代/反思/复盘/评估/更新/升级逐环验正本在场；两条铁轨不可绕：无验证读数的自我改进不许发布（感觉变好≠变好），每条自主升级路径必内建操作者一句话断路器且能力越强开关越醒目。",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,3 @@
+- insert:
+  - id: self-evolve
+    name: "@local/dsh-self-evolve"
